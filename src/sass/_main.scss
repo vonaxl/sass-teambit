@@ -1,0 +1,25 @@
+main {
+  background: $bg-secondary;
+  padding: 0 15rem;
+  section {
+    padding-top: 5rem;
+    border-bottom: 1px solid gray;
+    * {
+      margin-bottom: 3rem;
+    }
+    .col-12 {
+      .box {
+        padding: 0 7rem;
+      }
+    }
+    .col-3 {
+      img {
+        height: 110px;
+        width: auto;
+      }
+    }
+    img {
+      width: 300px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@import "variables";
+@import "common";
+@import "header";
+@import "main";
+@import "article";
+
+body {
+  color: $primary-text;
+}

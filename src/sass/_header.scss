@@ -1,0 +1,43 @@
+#top-header {
+  padding: 0.8rem;
+  background: $bg-secondary;
+  p {
+    font-size: 0.7rem;
+  }
+} //end top header
+header {
+  padding: $spacer;
+  nav {
+    padding: 1.3rem;
+    border-bottom: 1px solid gray;
+    ul {
+      li {
+        padding-right: 1.3rem;
+        a {
+          color: $primary-text;
+          &:hover {
+            text-decoration: none;
+            color: red;
+          }
+        }
+      }
+    } // end ul
+  } //end nav
+  section {
+    padding: 5rem 0rem;
+    .hero-left {
+      padding: 2rem 1rem;
+      h1 {
+        font-size: 3.4rem;
+      }
+      * {
+        margin-bottom: 2rem;
+      }
+    } //hero left
+    .hero-right {
+      img {
+        width: 100%;
+      }
+    }
+  }
+} //end header
