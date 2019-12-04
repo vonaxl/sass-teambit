@@ -133,5 +133,6 @@ footer ul li {
 
 body {
   color: #635950;
+  overflow-x: hidden;
 }
 
