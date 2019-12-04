@@ -1,9 +1,32 @@
 article {
-  padding: $top-spacer;
+  padding-top: 5rem;
   section {
     padding: 3rem 0;
-    img {
-      width: 100%;
+    .col-6 {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  section:last-child {
+    background-color: $bg-secondary;
+    * {
+      margin-bottom: 1rem;
+    }
+    .box {
+      background: white;
+      border: 1px solid gray;
+      border-radius: 10px;
+      padding: 2.5rem;
+      img {
+        width: 35px;
+        float: left;
+      }
+      span {
+        * {
+          margin-left: 1rem;
+        }
+      }
     }
   }
 } //article

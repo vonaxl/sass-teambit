@@ -1,0 +1,13 @@
+footer {
+  padding: 5rem;
+  ul {
+    li:first-child {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    li {
+      padding-bottom: 0.4rem;
+      font-size: 0.8rem;
+    }
+  }
+}

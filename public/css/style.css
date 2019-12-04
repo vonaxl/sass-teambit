@@ -82,15 +82,53 @@ main section img {
 }
 
 article {
-  padding: 5rem 0;
+  padding-top: 5rem;
 }
 
 article section {
   padding: 3rem 0;
 }
 
-article section img {
+article section .col-6 img {
   width: 100%;
+}
+
+article section:last-child {
+  background-color: #ffe7d2;
+}
+
+article section:last-child * {
+  margin-bottom: 1rem;
+}
+
+article section:last-child .box {
+  background: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 2.5rem;
+}
+
+article section:last-child .box img {
+  width: 35px;
+  float: left;
+}
+
+article section:last-child .box span * {
+  margin-left: 1rem;
+}
+
+footer {
+  padding: 5rem;
+}
+
+footer ul li:first-child {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+footer ul li {
+  padding-bottom: 0.4rem;
+  font-size: 0.8rem;
 }
 
 body {
